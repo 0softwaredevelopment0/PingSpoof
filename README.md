@@ -1,5 +1,7 @@
 # PingSpoof
 
+![Latest release](https://img.shields.io/github/v/release/0softwaredevelopment0/PingSpoof)
+
 A client-side Fabric mod for Minecraft 26.2 that lets you set a custom ping value shown on the server.
 
 The server measures your ping by timing how long the client takes to answer keep-alive packets. This mod intercepts the keep-alive handling on the client and delays the reply by the configured value, so the ping shown in the player tab matches the value you set.
